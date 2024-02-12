@@ -1,0 +1,265 @@
+	.navigation-clean {
+  background: rgba(252, 34, 49, 0.979);
+  padding:10px 0;
+  color: #333;
+  border-radius: 2px;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+}
+
+ 
+
+.navigation-clean .navbar-brand {
+  font-weight: bold;
+  color: inherit;
+}
+
+.navigation-clean .navbar-brand:hover {
+  color: #222;
+}
+
+.navigation-clean .navbar-toggler {
+  border-color: #ddd;
+}
+
+.navigation-clean .navbar-toggler:hover,
+.navigation-clean .navbar-toggler:focus {
+  background: none;
+}
+
+.navigation-clean .navbar-toggler {
+  color: #888;
+}
+
+.navigation-clean .navbar-collapse,
+.navigation-clean .form-inline {
+  border-top-color: #ddd;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link.active,
+.navigation-clean.navbar-light .navbar-nav .nav-link.active:focus,
+.navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
+  color: #8f8f8f;
+  box-shadow: none;
+  background: none;
+  pointer-events: none;
+}
+
+.navigation-clean.navbar .navbar-nav .nav-link {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.navigation-clean.navbar .navbar-nav .nav-item:first-child .nav-link{ padding-left: 0}
+.navigation-clean.navbar .navbar-nav .nav-item:last-child .nav-link{ padding-right: 0}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link {color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 400;}
+.navigation-clean.navbar-light .navbar-nav .nav-item.show .nav-link{font-weight: bold; color: #000;}
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+  color: #37434d !important;  background-color: transparent;}
+.navigation-clean .navbar-nav>li>.dropdown-menu {  margin-top:10px;box-shadow: none; background-color: #fff;border: 0; box-shadow: 1px 2px 5px 0px #dfd7d7;border-radius: 2px;}
+.navigation-clean .dropdown-menu .dropdown-item:focus,
+.navigation-clean .dropdown-menu .dropdown-item {  line-height: 2;  color: #37434d;}
+.navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item:hover {  background: #eee;
+  color: inherit;}
+.template_faq {  background: #edf3fe none repeat scroll 0 0;}
+.panel-group {  background: #fff none repeat scroll 0 0;  border-radius: 3px;  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.04);
+  margin-bottom: 0;  padding: 30px;}
+#accordion .panel {  border: medium none;  border-radius: 0;  box-shadow: none;  margin: 0 0 15px 10px;}
+#accordion .panel-heading {  border-radius: 30px;  padding: 0;}
+#accordion .panel-title a {  background: #ffb900 none repeat scroll 0 0;
+  border: 1px solid transparent;  border-radius: 30px;  color: #fff;  display: block;  font-size: 18px;  font-weight: 600;  padding: 12px 20px 12px 50px;  position: relative;  transition: all 0.3s ease 0s;}
+#accordion .panel-title a.collapsed {  background: #fff none repeat scroll 0 0;  border: 1px solid #ddd;  color: #333;}
+#accordion .panel-title a::after, #accordion .panel-title a.collapsed::after {  background: #ffb900 none repeat scroll 0 0;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.58);
+  color: #fff;
+  content: "";
+  font-family: fontawesome;
+  font-size: 25px;
+  height: 55px;
+  left: -20px;
+  line-height: 55px;
+  position: absolute;
+  text-align: center;
+  top: -5px;
+  transition: all 0.3s ease 0s;
+  width: 55px;
+}
+
+#accordion .panel-title a.collapsed::after {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  box-shadow: none;
+  color: #333;
+  content: "";
+}
+
+#accordion .panel-body {
+  background: transparent none repeat scroll 0 0;
+  border-top: medium none;
+  padding: 20px 25px 10px 9px;
+  position: relative;
+}
+
+#accordion .panel-body p {
+  border-left: 1px dashed #8c8c8c;
+  padding-left: 25px;
+}
+
+
+
+.card {
+  display: block;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow .25s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-card {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  display: block;
+  overflow: hidden;
+}
+
+.img-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: all .25s ease;
+}
+
+.card-content {
+  padding: 15px;
+  text-align: left;
+}
+
+.card-title {
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 1.65em;
+}
+
+.primary {
+  background-color: #007bff;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.primary:hover {
+  background-color: #e83e8c;
+  color: #222;
+  text-decoration: none;
+}
+
+.pink {
+  background-color: #00B74A;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.pink:hover {
+  background-color: #FFA900;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+
+.indigo {
+  background-color: #F93154;
+  padding: 20px 20px;
+  color: #fff;
+}
+
+.indigo:hover {
+  background-color: #6610f2;
+
+}
+
+
+
+.teleheath {
+  text-decoration: none;
+  color: #fff;
+}
+
+.teleheath:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.wstep {
+  text-align: center;
+  background-color: #00B74A;
+  color: #ffff;
+  font-weight: bold;
+  height: auto;
+  min-height: 80px;
+  padding-top: 10px;
+}
+
+.sticky-container {
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  right: -170px;
+  top: 230px;
+  width: 210px;
+  z-index: 1100;
+}
+
+.sticky li {
+  list-style-type: none;
+  background-color: #fff;
+  color: #efefef;
+  height: 43px;
+  padding: 0px;
+  margin: 0px 0px 1px 0px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.sticky li:hover {
+  margin-left: -115px;
+}
+
+.sticky li img {
+  float: left;
+  margin: 5px 4px;
+  margin-right: 5px;
+}
+
+.sticky li p {
+  padding-top: 5px;
+  margin: 0px;
+  line-height: 16px;
+  font-size: 11px;
+}
+
+.sticky li p a {
+  text-decoration: none;
+  color: #2C3539;
+}
+
+.sticky li p a:hover {
+  text-decoration: underline;
+}
